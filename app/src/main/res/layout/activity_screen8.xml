@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFA500"
+    tools:context=".screen8">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtcon"
+        android:text="DEVELOPER: SURAJ SINGH"
+        android:textSize="24dp"
+        android:layout_marginTop="80dp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtcont"
+        android:layout_below="@id/txtcon"
+        android:text="EMAIL: surajkeshr023@gmail.com"
+        android:textSize="22dp"
+        android:gravity="center"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtcont"
+        android:text="GITHUB: github.com/slkshatriya"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+
+
+</LinearLayout>
